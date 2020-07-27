@@ -1,0 +1,45 @@
+.name-enter {
+    opacity: 0;
+    margin-left: -200px;
+    transform: scale(0.9);
+}
+
+.name-enter-active {
+    opacity: 1;
+    margin-left: 0;
+    transform: translateX(0);
+    transition: opacity 2000ms, transform 2000ms, margin-left 2000ms;
+}
+
+.name-exit {
+    opacity: 1;
+}
+
+.name-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 2000ms, transform 2000ms;
+}
+
+.surname-enter {
+    opacity: 0;
+    margin-left: 150px;
+    transform: scale(0.9);
+}
+
+.surname-enter-active {
+    opacity: 1;
+    margin-left: 0;
+    transform: translateX(0);
+    transition: opacity 3000ms, transform 3000ms, margin-left 3000ms;
+}
+
+.surname-exit {
+    opacity: 1;
+}
+
+.surname-exit-active {
+    opacity: 0;
+    transform: scale(0.9);
+    transition: opacity 3000ms, transform 3000ms;
+}
