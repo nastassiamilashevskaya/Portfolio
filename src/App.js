@@ -13,7 +13,7 @@ function App() {
   }, [])
   
   return (
-    <div className={styles.container}>
+    <div id='home' className={styles.container}>
       <Header />
       <Intro />
       <About />

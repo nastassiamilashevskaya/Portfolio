@@ -20,7 +20,7 @@ export default () => {
                 <CSSTransition in={inProp} timeout={2000} classNames="surname">
                     <div className={styles.introSurname}>front-end developer</div>
                 </CSSTransition>
-                <button className={styles.contactButton} type='button'>Contact me</button>
+                <a className={styles.contactButton} href='mailto:nastassianish@gmail.com'>Contact me</a>
             </div>
         </div>
     )

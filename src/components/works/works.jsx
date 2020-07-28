@@ -10,27 +10,32 @@ const worksArray = [
     {
         image: Keyboard,
         title: 'Virtual Keyboard',
-        discription: 'connected with physical keyboard'
+        discription: 'connected with physical keyboard',
+        link: 'https://nastassiamilashevskaya.github.io/virtual-keybord/'
     },
     {
         image: Weather,
         title: 'Fancy Weather',
-        discription: 'app for tracking weather anywhere'
+        discription: 'app for tracking weather anywhere',
+        link: 'https://nastassiamilashevskaya-fancy-weather.netlify.app/'
     },
     {
         image: MovieSearch,
         title: 'Movie Search',
-        discription: 'app for searching movies & games'
+        discription: 'app for searching movies & games',
+        link: 'https://nastassiamilashevskaya-movie-search.netlify.app/'
     },
     {
         image: English,
         title: 'English For Kids',
-        discription: 'app for learning english for kids'
+        discription: 'app for learning english for kids',
+        link: 'https://nastassiamilashevskaya-english-for-kids.netlify.app/'
     },
     {
         image: Rslang,
         title: 'RS Lang',
-        discription: 'big app for learning english created with the team of developers'
+        discription: 'big app for learning english created with the team of developers',
+        link: 'https://rslang-team49-jelika.netlify.app/'
     }
 ]
 
@@ -40,14 +45,13 @@ export default () => {
             <div className={styles.worksTitle}>My works</div>
             <div className={styles.worksInner}>
                 {worksArray.map(el =>
-                    <div key={el.title} className={styles.workItem}>
+                    <a href={el.link} key={el.title} className={styles.workItem}>
                         <div className={styles.workTitle}>
                             <div>{el.title}</div>
                             <div>{el.discription}</div>
                         </div>
                         <img className={styles.workImg} src={el.image} alt=''></img>
-                        {/* <div className={styles.workDiscription}>AAAAAAAAAAA</div> */}
-                    </div>
+                    </a>
                 )}
             </div>
         </div>
