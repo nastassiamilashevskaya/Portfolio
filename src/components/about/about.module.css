@@ -1,17 +1,17 @@
 .aboutContainer {
     width: calc(100vw - 3px);
-    background-color: rgb(255, 255, 45);
+    background-color: rgba(255, 255, 45, 0.95);
     color: rgb(45, 63, 118);
     position: relative;
     top: 63px;
     left: calc((100vw - 100%)/2*(-1) - 3px);
-    padding: 2.5em 0;
+    padding: 3.5em 0;
 }
 
 .aboutTitle {
     font-weight: 600;
     font-size: 2.5rem;
-    margin-bottom: 0.4em;
+    margin-bottom: 0.6em;
 }
 
 .aboutAvatar {
@@ -22,6 +22,7 @@
 }
 
 .aboutText {
+    margin-top: -10px;
     line-height: 1.6;
 }
 

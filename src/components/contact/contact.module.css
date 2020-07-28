@@ -1,0 +1,69 @@
+.contactContainer {
+    width: calc(100vw - 3px);
+    background-color: rgba(45, 63, 118, 0.95);
+    color: rgb(255, 255, 45);
+    position: relative;
+    top: 63px;
+    left: calc((100vw - 100%)/2*(-1) - 3px);
+    padding: 3.5em 0;
+}
+
+.contactInner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contactTitle {
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 0.6em;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactItem {
+    display: flex;
+    align-items: center;
+}
+
+.contactItem > span  {
+    margin-left: 1em;
+}
+
+.contactItem > span > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.contactItem:not(:last-child) {
+    margin-bottom: 0.6em;
+}
+
+@media (min-width: 575.98px) {
+    .contactInner {
+        max-width: 540px;
+        margin: auto;
+        padding: 0;
+    }
+}
+
+@media (min-width: 767.98px) {
+    .contactInner {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 991.98px) {
+    .contactInner {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1199.98px) {
+    .contactInner {
+        max-width: 1140px;
+    }
+}
