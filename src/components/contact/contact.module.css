@@ -42,6 +42,36 @@
     margin-bottom: 0.6em;
 }
 
+@media (min-width: 319px) {
+    .contactInner {
+        max-width: 300px;
+        margin: auto;
+        padding: 0;
+    }
+    /* .contactContainer {
+        width: calc(100vw + 9px);
+    } */
+}
+
+@media (min-width: 375px) {
+    .contactInner {
+        max-width: 340px;
+        margin: auto;
+        padding: 0;
+    }
+}
+
+@media (min-width: 425px) {
+    .contactInner {
+        max-width: 400px;
+        margin: auto;
+        padding: 0;
+    }
+    .contactContainer {
+        width: calc(100vw - 3px);
+    }
+}
+
 @media (min-width: 575.98px) {
     .contactInner {
         max-width: 540px;

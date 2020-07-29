@@ -28,6 +28,30 @@
     font-size: 1.4rem;
 }
 
+@media (min-width: 320px) {
+    .headerInner {
+        max-width: 300px;
+        margin: auto;
+        padding: 0;
+    }
+}
+
+@media (min-width: 375px) {
+    .headerInner {
+        max-width: 340px;
+        margin: auto;
+        padding: 0;
+    }
+}
+
+@media (min-width: 425px) {
+    .headerInner {
+        max-width: 400px;
+        margin: auto;
+        padding: 0;
+    }
+}
+
 @media (min-width: 575.98px) {
     .headerInner {
         max-width: 540px;
