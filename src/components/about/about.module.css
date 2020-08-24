@@ -97,6 +97,13 @@
     }
 }
 
+@media (min-width: 992px) {
+    .aboutAvatar {
+        margin-left: 6em;
+        margin-top: 0;
+    }
+}
+
 @media (min-width: 767.98px) {
     .aboutInner {
         max-width: 720px;

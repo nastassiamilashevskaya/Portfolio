@@ -122,8 +122,6 @@ function animate() {
 
     requestAnimationFrame(animate);
 
-    var halfWidth = container.offsetWidth / 2;
-
     group.rotation.y += clock.getDelta() * 0.1;
 
     renderer.setViewport(0, 0, container.offsetWidth, container.offsetHeight);
