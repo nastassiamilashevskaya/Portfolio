@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.be9158d6.chunk.css",
-    "main.js": "/Portfolio/static/js/main.144992df.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.144992df.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.aa2e0c54.chunk.css",
+    "main.js": "/Portfolio/static/js/main.5596ba61.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.5596ba61.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.e440ee5a.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.e440ee5a.js.map",
-    "static/js/2.13e75232.chunk.js": "/Portfolio/static/js/2.13e75232.chunk.js",
-    "static/js/2.13e75232.chunk.js.map": "/Portfolio/static/js/2.13e75232.chunk.js.map",
+    "static/js/2.f06d922f.chunk.js": "/Portfolio/static/js/2.f06d922f.chunk.js",
+    "static/js/2.f06d922f.chunk.js.map": "/Portfolio/static/js/2.f06d922f.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.ae0347089b323571e130685a8fd42566.js": "/Portfolio/precache-manifest.ae0347089b323571e130685a8fd42566.js",
+    "precache-manifest.4b706b7cf8ea1308a490caa6051af5fa.js": "/Portfolio/precache-manifest.4b706b7cf8ea1308a490caa6051af5fa.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.be9158d6.chunk.css.map": "/Portfolio/static/css/main.be9158d6.chunk.css.map",
-    "static/js/2.13e75232.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.13e75232.chunk.js.LICENSE.txt",
-    "static/media/N.eb978295.svg": "/Portfolio/static/media/N.eb978295.svg",
+    "static/css/main.aa2e0c54.chunk.css.map": "/Portfolio/static/css/main.aa2e0c54.chunk.css.map",
+    "static/js/2.f06d922f.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.f06d922f.chunk.js.LICENSE.txt",
+    "static/media/N.a0e64767.svg": "/Portfolio/static/media/N.a0e64767.svg",
     "static/media/avatar.jpg": "/Portfolio/static/media/avatar.a51644c9.jpg",
     "static/media/english-for-kids.gif": "/Portfolio/static/media/english-for-kids.22b027cc.gif",
     "static/media/movie-search.gif": "/Portfolio/static/media/movie-search.0973d24c.gif",
     "static/media/rslang.gif": "/Portfolio/static/media/rslang.c14c277f.gif",
+    "static/media/songbird.gif": "/Portfolio/static/media/songbird.b70dd280.gif",
     "static/media/virtual-keyboard.gif": "/Portfolio/static/media/virtual-keyboard.19878602.gif",
     "static/media/weather.gif": "/Portfolio/static/media/weather.af77d88e.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.e440ee5a.js",
-    "static/js/2.13e75232.chunk.js",
-    "static/css/main.be9158d6.chunk.css",
-    "static/js/main.144992df.chunk.js"
+    "static/js/2.f06d922f.chunk.js",
+    "static/css/main.aa2e0c54.chunk.css",
+    "static/js/main.5596ba61.chunk.js"
   ]
 }
