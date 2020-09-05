@@ -21,8 +21,8 @@ function init() {
     camera.position.z = 500;
 
     scene = new THREE.Scene();
-    scene.background = new THREE.Color(0xd3d3d3);
-    scene.fog = new THREE.Fog(0xcccccc, 100, 1500);
+    scene.background = new THREE.Color(0xFFFFFF);
+    scene.fog = new THREE.Fog(0xFFFFFF, 100, 1500);
 
     clock = new THREE.Clock();
 
@@ -41,7 +41,7 @@ function init() {
     group = new THREE.Group();
 
     var geometry = new THREE.TetrahedronBufferGeometry(10);
-    var material = new THREE.MeshStandardMaterial({ color: 0xFFFF00, flatShading: true });
+    var material = new THREE.MeshStandardMaterial({ color: 0xD6B992, flatShading: true });
 
     for (var i = 0; i < 100; i++) {
 

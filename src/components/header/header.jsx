@@ -14,7 +14,7 @@ export default () => {
 
     const listenScrollEvent = useCallback((e)=> {
       if (window.scrollY > 250) {
-        setHeaderColor('#b3b3b3')
+        setHeaderColor('#968980')
         if (window.scrollY > 691 && window.scrollY < 1011) {
           linkHandler('About')
         } else if (window.scrollY >= 1011 && window.scrollY < 1316) {

@@ -1,7 +1,7 @@
 .contactContainer {
     width: calc(100vw - 3px);
-    background-color: rgba(45, 63, 118, 0.95);
-    color: rgb(255, 255, 45);
+    background-color: #281D00;
+    color: #D6B992;
     position: relative;
     top: 63px;
     left: calc((100vw - 100%)/2*(-1) - 3px);

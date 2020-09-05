@@ -5,6 +5,7 @@ import Weather from '../../img/weather.gif'
 import MovieSearch from '../../img/movie-search.gif'
 import English from '../../img/english-for-kids.gif'
 import Rslang from '../../img/rslang.gif'
+import Songbird from '../../img/songbird.gif'
 
 const worksArray = [
     {
@@ -16,7 +17,7 @@ const worksArray = [
     {
         image: Weather,
         title: 'Fancy Weather',
-        discription: 'app for tracking weather anywhere',
+        discription: 'app for tracking weather wherever you want',
         link: 'https://nastassiamilashevskaya-fancy-weather.netlify.app/'
     },
     {
@@ -36,6 +37,12 @@ const worksArray = [
         title: 'RS Lang',
         discription: 'big app for learning english created with the team of developers',
         link: 'https://rslang-team49-jelika.netlify.app/'
+    },
+    {
+        image: Songbird,
+        title: 'Songbird',
+        discription: 'quess the songs and score points',
+        link: 'https://nastassiamilashevskaya-songbird.netlify.app/'
     }
 ]
 
@@ -43,17 +50,17 @@ export default () => {
     return (
         <div id='works' className={styles.worksContainer}>
             <div className={styles.worksTitle}>My works</div>
-            <div className={styles.worksInner}>
-                {worksArray.map(el =>
-                    <a href={el.link} key={el.title} className={styles.workItem}>
-                        <div className={styles.workTitle}>
-                            <div>{el.title}</div>
-                            <div>{el.discription}</div>
-                        </div>
-                        <img className={styles.workImg} src={el.image} alt=''></img>
-                    </a>
-                )}
-            </div>
+                <div className={styles.worksInner}>
+                    {worksArray.map(el =>
+                        <a href={el.link} key={el.title} className={styles.workItem}>
+                            <div className={styles.workTitle}>
+                                <div>{el.title}</div>
+                                <div>{el.discription}</div>
+                            </div>
+                            <img className={styles.workImg} src={el.image} alt=''></img>
+                        </a>
+                    )}
+                </div>
         </div>
     )
 }
