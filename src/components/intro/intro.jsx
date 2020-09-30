@@ -11,7 +11,6 @@ export default () => {
     useEffect(() => {
         setInProp(true)
         setWidth(document.documentElement.clientWidth)
-        console.log(document.documentElement.clientWidth)
     }, [])
 
     return (
